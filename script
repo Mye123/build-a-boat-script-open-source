@@ -1,0 +1,76 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Best Build A Boat Autofarm Script (Free Version)", "Synapse")
+local Tab = Window:NewTab("Farms")
+local Section = Tab:NewSection("Funny Famrs")
+Section:NewToggle("Gold Block Farm", "ToggleInfo", function(state)
+    if state then
+_G.on = true
+game.Workspace.Gravity = 0
+while _G.on == true do
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3.950746536254883, 98.00650787353516, 1136.9822998046875)
+wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-47.99941635131836, 64.90060424804688, 1834.0714111328125)
+wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-81.59349060058594, 56.508541107177734, 2436.549560546875)
+wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-61.99674987792969, 56.65703201293945, 3272.794677734375)
+wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-83.65717315673828, 68.5973129272461, 4008.12646484375)
+wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-72.70181274414062, 71.51084899902344, 4790.89404296875)
+wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-52.8917236328125, 72.32332611083984, 5618.67529296875)
+wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-99.86579895019531, 85.19621276855469, 6321.73095703125)
+wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-37.84281539916992, 94.00334167480469, 7143.701171875)
+wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-73.89616394042969, 101.74441528320312, 7823.53466796875)
+wait(0.5)
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.Position)
+wait(20)
+end
+end
+_G.on = false
+game.Workspace.Gravity = 196
+while _G.on == true do
+        print("Toggle On")
+end
+    end)
+Section:NewToggle("Gold Farm", "ToggleInfo", function(state)
+    if state then
+_G.on = true
+
+while _G.on == true do
+game.Workspace.Gravity = 0
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3.950746536254883, 98.00650787353516, 1136.9822998046875)
+wait(1.3)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-47.99941635131836, 64.90060424804688, 1834.0714111328125)
+wait(1.3)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-81.59349060058594, 56.508541107177734, 2436.549560546875)
+wait(1.3)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-61.99674987792969, 56.65703201293945, 3272.794677734375)
+wait(1.3)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-83.65717315673828, 68.5973129272461, 4008.12646484375)
+wait(1.3)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-72.70181274414062, 71.51084899902344, 4790.89404296875)
+wait(1.3)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-52.8917236328125, 72.32332611083984, 5618.67529296875)
+wait(1.3)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-99.86579895019531, 85.19621276855469, 6321.73095703125)
+wait(1.3)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-37.84281539916992, 94.00334167480469, 7143.701171875)
+wait(1.3)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-73.89616394042969, 101.74441528320312, 7823.53466796875)
+wait(1.3)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.Position)
+wait(16)
+end
+    else
+_G.on = false
+game.Workspace.Gravity = 196
+while _G.on == true do
+        print("Toggle On")
+end
+    end
+end)
